@@ -1,0 +1,314 @@
+.contentmain h1 {
+    text-align: left;
+    color: whitesmoke;
+    display: flex;
+    font-size: 50px;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(115, 114, 114, 0.5);
+    z-index: 1;
+}
+
+.contentmain {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contentmain .content {
+    color: rgb(188, 188, 61);
+    font-size: 30px;
+}
+
+.content p {
+    color: rgba(240, 255, 255, 0.729);
+
+}
+
+h2 {
+    color: rgb(239 178 42 / 86%)
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+}
+
+header .top-header {
+    background-color: rgba(0, 0, 0, 0.608);
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.863);
+    justify-content: space-between;
+    display: flex;
+}
+
+header .top-header ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+header ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+header ul li :hover {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+header .top-header ul menu {
+    gap: 30px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+aside {
+    width: 800px;
+    margin-top: 0;
+    padding: 15px;
+    background-color: rgb(44 34 34 / 77%);
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.container {
+    width: 1500px;
+    display: flex;
+ 
+}
+
+aside section ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+aside section ul li {
+    list-style-type: none;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.content {
+    color: rgba(0, 0, 0, 0.773);
+}
+
+aside section ul li a:hover {
+    color:aquamarine;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.608);
+    padding: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+
+form {
+    top: 20px;
+    margin-left: 350px;
+    position: relative;
+    
+}
+
+form label {
+    display: flex;
+    margin: 8px 0;
+    line-height: 10px;
+}
+
+input {
+    width: 30%;
+    padding: 8px;
+}
+
+.card-group {
+    display: flex;
+    padding: 20px;
+    margin-top: 10px;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 500px;
+    border: 1px solid rgb(236, 234, 234);
+    border-radius: 5px;
+    margin-left: 30px;
+
+}
+
+.card-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+
+
+}
+
+.best-sellers {
+    display: flex;
+}
+
+.newarrival {
+    display: flex;
+    padding: 5px;
+
+}
+
+.cardnewarrival {
+    width: 469px;
+}
+
+.collection .contentmain {
+    margin-bottom: 10px;
+
+}
+
+.video {
+    display: flex;
+    gap: 5px;
+}
+
+
+.offer {
+
+    padding: 15px;
+    font-size: 22px;
+    color: #f4f1f1;
+    line-height: 1.5;
+    word-wrap: break-word;
+    max-width: 600px;
+    float: left;
+    text-align: left;
+}
+
+
+.contentmain h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.offer-ad {
+    position: relative;
+
+}
+
+.text-offer {
+    position: absolute;
+    top: 5px;
+    left: 720px;
+    font-size: 35px;
+    font-weight: 500;
+    color: rgba(255, 255, 0, 0.655);
+    text-decoration: none;
+
+}
+
+
+.offer-btn {
+
+    position: absolute;
+    bottom: 70px;
+    left: 750px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.domino {
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.btn-dark {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.cmain img {
+    position: relative;
+    width: 1450px;
+    height: 500px;
+}
+
+.cindex {
+    position: absolute;
+    top: 10px;
+
+}
+
+.cindex a {
+    color: white;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 50px;
+}
+.contact{
+    position:absolute;
+    height: 67vh;
+    width: 280px;
+    margin-top: 0;
+    padding: 15px;
+    background-color: rgb(44 34 34 / 77%);
+}
+.us{
+    height: 70vh;
+}
+.space{
+    line-height: 5;
+}
+.arrival{
+    color: rgba(137, 67, 67, 0.751);
+    text-align: center;
+}
+
+/* .offer-title{
+    color: rgba(137, 67, 67, 0.751);
+    text-align: center;
+} */
+
